@@ -27,15 +27,9 @@ I have learned how to use graphql in a full stack app in place of a REST-API
 1. [Features](#demo)
     
 1. [Questions](#test)
-    
-1. [undefined](#badges)
-    
-1. [undefined](#features)
-    
+        
 1. [Contributors](#contributors)
-    
-1. [undefined](#contribute)
-    
+        
 1. [Badges](#questions)
     
 1. [License](#license)
@@ -49,43 +43,17 @@ This is a web app but if you wish to dowload the repo and install the dependenci
     
 A user creates an account that retreives book listings based on your input of the book title and will store the books that you save
     
-## [Walkthrough Video](https://watch.screencastify.com/v/U2QpCko7skGyMEGyo3ZA)
-    
 ### [Demo Screenshot 1](#demo-screenshot-1)
-    
-![screenshot demo ](./SS1.PNG)
-    
-### [Demo Screenshot 2](#demo-screenshot-2)
-    
-![screenshot demo](./SS2.PNG)
-    
-### [Demo Screenshot 3](#demo-screenshot-3)
-    
-![screenshot demo](./SS3.PNG)
-    
+     
 ## [Questions](#test)
     
 The functionality of this application is still under development...
     
-## [undefined](#badges)
-    
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-    
 You can get badges hosted by [shields.io](https://shields.io/). 
-    
-## [undefined](#features)
-    
-If your project has a lot of features, list them here.
     
 ## [Contributors](#contributors)
     
 Landon Hinkle
-    
-## [undefined](#contribute)
-    
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
-    
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
     
 ## [Badges](#questions)
     
