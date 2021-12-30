@@ -31,22 +31,22 @@ const resolvers = {
             const token = signToken(user);
             return { token, user };
         },
-        addBook: async (parent, { bookData }, context) => {
+        addBook: async (parent, {bookData}, context) => {
           if (context.user) {
             const updatedUser = await User.findByIdAndUpdate(
               { _id: context.user._id },
-              { $push: { savedBooks: bookData } },
+              { $push: {savedBooks: bookData} },
               { new: true }
             );
             return updatedUser;
           }
           throw new AuthenticationError('Please login first!');
         },
-        deleteBook: async (parent, { bookId }, context) => {
+        deleteBook: async (parent, {bookId}, context) => {
           if (context.user) {
             const updatedUser = await User.findOneAndUpdate(
               { _id: context.user._id },
-              { $pull: { savedBooks: { bookId } } },
+              { $pull: {savedBooks: {bookId} } },
               { new: true }
             );
             return updatedUser;
