@@ -60,4 +60,4 @@ mutation deleteBook($bookId: Id) {
         }
     }
 }
-`
+`;

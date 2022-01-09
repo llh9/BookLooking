@@ -17,4 +17,4 @@ export const THIS_USER = gql`
         }
     }
 }
-`
+`;
