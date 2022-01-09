@@ -7,13 +7,13 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: 'http://localhost:3001/graphql',
   request: operation => {
     const token = localStorage.getItem('id_token');
-
+    // token = token.toString();
     operation.setContext({
       headers: {
-        authorization: token ? `Bearer ${token}` : ''
+        Authorization: token ? `Bearer ${token}` : ''
       }
     })
   },
